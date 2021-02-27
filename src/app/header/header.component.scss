@@ -1,0 +1,17 @@
+.text-sty{
+    display: block !important;
+
+}
+.heading-sty{
+background-image:linear-gradient(90deg, #ee6352, purple, #ee6352);
+background-clip: text;
+color: transparent;
+// display: inline-block;
+font-size: 2rem;
+background-size: 300%;
+transition: background-position 1s;
+}
+
+.heading-sty:hover {
+    background-position: right;
+  }
